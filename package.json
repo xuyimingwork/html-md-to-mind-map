@@ -1,0 +1,28 @@
+{
+  "name": "html-md-to-mind-map",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview",
+    "build:one": "webpack --config webpack.config.js"
+  },
+  "dependencies": {
+    "d3": "^7.1.1",
+    "element-plus": "^1.1.0-beta.24",
+    "markmap-autoloader": "^0.1.6",
+    "markmap-lib": "^0.11.6",
+    "markmap-view": "^0.2.6",
+    "parse5": "^6.0.1",
+    "unplugin-vue-components": "^0.16.0",
+    "vue": "^3.2.16"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.3",
+    "typescript": "^4.4.3",
+    "vite": "^2.6.4",
+    "vue-tsc": "^0.3.0",
+    "webpack": "^5.64.1",
+    "webpack-cli": "^4.9.1"
+  }
+}
